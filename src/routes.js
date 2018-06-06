@@ -2,13 +2,9 @@ import React from 'react';
 import {Route, IndexRoute} from 'react-router';
 import App from './App';
 import PostsIndex from './components/posts_index';
-const Greeting =()=>{
-  return <div> Hey Greeting </div>;
-};
 export default(
    <Route path="/" component={App}>
    <IndexRoute  component={PostsIndex}/>
-   <Route path="greet" component={Greeting}/>
    </Route>
 );
 //// Note when we we do simple http://localhost:3000/
