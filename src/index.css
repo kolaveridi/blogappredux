@@ -3,3 +3,10 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+.btn-submit{
+  height:20
+}
+.btn-submit{
+  width: 40px;
+  height: 20px;
+}
